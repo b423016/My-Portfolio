@@ -24,7 +24,7 @@ COPY backend/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend code
-COPY backend/ ./backend/
+COPY backend/ ./
 
 # Copy built frontend
 COPY --from=frontend-builder /app/frontend/out ./static/
@@ -36,4 +36,4 @@ EXPOSE 8000
 ENV PYTHONPATH=/app
 
 # Start command
-CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
