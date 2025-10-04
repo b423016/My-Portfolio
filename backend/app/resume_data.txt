@@ -1,0 +1,20 @@
+Ayush Kumar Jha is an AI & Backend Engineer with experience in developing AI models and backend systems.
+
+Projects:
+- Flight Route Optimization System: Developed an AI-powered system to optimize flight routes using machine learning algorithms.
+- Audio Recognition System: Built a system for recognizing audio patterns using deep learning techniques.
+
+Experience:
+- AI Engineer Intern at XYZ Company (2023): Developed AI models for data analysis.
+- AI Backend Developer at ABC Corp (2024): Built backend systems for AI applications.
+
+Achievements:
+- Winner of D3 Hackathon (2024)
+- Top 10% on Codeforces
+- 85% positive user feedback on developed systems
+
+Skills:
+- Programming Languages: Python, JavaScript, TypeScript
+- Frameworks: FastAPI, Next.js, React
+- AI/ML: LangChain, OpenAI API, Machine Learning algorithms
+- Other: Docker, Git, Cloud Services

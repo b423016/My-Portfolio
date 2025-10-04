@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+venv/
+.env
+
+# Node.js
+node_modules/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+.next/
+dist/
+build/
+
+# Logs
+*.log
+
+# Misc
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Others
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Ignore local files
+*.local
+
+# Ignore static and generated files
+static/
+generated/
+
+# Ignore test output
+*.out
+*.tmp
+
+# Ignore backups
+*~
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore personal files
+*.personal
