@@ -4,7 +4,7 @@ FROM node:18-alpine AS frontend-builder
 # Build frontend
 WORKDIR /app/frontend
 COPY interactive-portfolio/package*.json ./
-RUN npm ci
+RUN npm install
 COPY interactive-portfolio/ ./
 RUN npm run build
 
